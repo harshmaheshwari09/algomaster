@@ -1,3 +1,5 @@
+package math_fundamentals.geometry.valid_square;
+
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;

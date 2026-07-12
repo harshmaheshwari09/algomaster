@@ -9,14 +9,15 @@ The goal is to build a structured collection of problem statements and accepted 
 Problems are organized by topic and problem name:
 
 ```text
-<topic>/<sub-topic>/<problem-name>/
-└── README.md
+src/main/java/<topic>/<sub_topic>/<problem_name>/
+├── README.md
+└── Solution.java
 ```
 
 Example:
 
 ```text
-math-fundamentals/geometry/valid-square/
+src/main/java/math_fundamentals/geometry/valid_square/
 ├── README.md
 └── Solution.java
 ```
@@ -26,7 +27,8 @@ math-fundamentals/geometry/valid-square/
 When adding a new problem, start with:
 
 - `README.md` with the source link, problem statement, examples, and constraints.
-- A directory name that matches the problem title in lowercase kebab-case.
+- `Solution.java` with the source-provided method template.
+- A package-safe directory name using lowercase words separated by underscores.
 
 Add solution files separately when implementing the problem.
 

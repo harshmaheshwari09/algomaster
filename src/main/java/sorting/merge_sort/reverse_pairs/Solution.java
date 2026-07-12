@@ -1,3 +1,5 @@
+package sorting.merge_sort.reverse_pairs;
+
 class Solution {
     public int reversePairs(int[] nums) {
         if (nums.length < 2) {
